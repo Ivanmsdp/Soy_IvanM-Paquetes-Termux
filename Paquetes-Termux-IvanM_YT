@@ -15,13 +15,20 @@ function banertor {
         clear
 
 echo -e ""
+echo -e "\e[1;30m┍━━━━━━━╝BETA_V1╚━━━━━━━┑echo -e "\e[1;30m
 echo -e "\e[1;30m╔══╗                      ╔═╦═╗echo -e "\e[1;30m
 echo -e "\e[1;30m╚║║╝╔═╦═╗╔═╗  ╔═╦╗║║║║║echo -e "\e[1;30m
 echo -e "\e[1;30m╔║║╗╚╗║╔╝║╬╚╗║║║║║║║║║echo -e "\e[1;30m
 echo -e "\e[1;30m╚══╝ ╚═╝  ╚══╝╚╩═╝╚╩═╩╝echo -e "\e[1;30m
-echo -e "\e[1;30m───────🔥 BETA_V1 🔥───────echo -e "\e[1;30m "\e[33m🔥BETA_V1\e[0m"
+echo -e "\e[1;30m┕━━━━━━━╗BETA_V1╔━━━━━━━┙echo -e "\e[1;30m
+ "\e[33m🔥BETA_V1\e[0m"
 echo -e ""
 echo -e "\e[1;34m            by \e[1;37m: \e[31m🥳IvanM-YT-TLM-SDP🥳"                     
+echo -e "\e[1;30m╔══╗                      ╔═╦═╗echo -e "\e[1;30m
+echo -e "\e[1;30m╚║║╝╔═╦═╗╔═╗  ╔═╦╗║║║║║echo -e "\e[1;30m
+echo -e "\e[1;30m╔║║╗╚╗║╔╝║╬╚╗║║║║║║║║║echo -e "\e[1;30m
+echo -e "\e[1;30m╚══╝ ╚═╝  ╚══╝╚╩═╝╚╩═╩╝echo -e "\e[1;30m
+echo -e "\e[1;30m───────🔥 BETA_V1 🔥───────echo -e "\e[1;30m "\e[33m🛡️Tu_Padre_Putito🛡️\e[0m"
 echo -e ""
 echo -e "\e[36m[\e[0m""\e[1;31m1\e[0m""\e[36m]\e[0m" "\e[32mDesea Instalar Todos Los Paquetes De Termux"
 echo -e "\e[36m[\e[0m""\e[1;31m2\e[0m""\e[36m]\e[0m" "\e[32mDesea Instalar Banners Para Termux"
