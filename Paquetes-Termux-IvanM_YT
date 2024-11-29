@@ -121,10 +121,10 @@ case $Opcion_Incog in
                       ;;
             2)
             cd
-            git clone https://github.com/Soy_IvanM-Paqutes-termux/Paquetes-Termux-IvanM_YT
-            cd Paquetes-Termux-IvanM_YT
+            git clone https://github.com/Ivanmsdp/Soy_IvanM-Paqutes-Termux.git
+            cd Soy_IvanM-Paqutes-Termux
                         chmod +x *
-                        bash Paquetes-Termux-IvanM_YT
+                        bash Soy_IvanM-Paqutes-Termux
                         ;;
 
                         3)
