@@ -1,0 +1,176 @@
+#!/bin/bash
+#
+#Wifi-Kill
+#
+#Monkey-hk4
+#
+#banner
+#
+#
+#Instagram: IvanM_YT-TLM-SDP
+#
+#
+function banertor {
+        sleep 0.5
+        clear
+
+echo -e ""
+
+
+echo -e "\e[1;30m                    ▄                                                                                                                          ▟███▙                                                  ▟█████▙                                                ▟███████▙                                              ▂▔▀▜██████▙                                            ▟██▅▂▝▜█████▙                                          ▟█████████████▙
+echo -e "\e[1;30m           ▟███████████████▙      \e[0m"                               
+echo -e "\e[1;30m         ▟████████████████▙     \e[0m"                           
+echo -e "\e[1;30m       ▟████████▛      ▜███████▙ \e[0m"                        
+echo -e "\e[1;30m     ▟██████████        █████▆▅▙ \e[0m"
+echo -e "\e[1;30m    ▟██████████▛        ▜█████████▙\e[0m"
+echo -e "\e[1;30m   ▟██████▀▀▀              ▀▀██████▙\e[0m"
+echo -e "\e[1;30m  ▟███▀▘                       ▝▀███▙\e[0m"
+echo -e "\e[1;30m ▟▛▀                               ▀▜▙\e[0m"
+echo -e "\e[1;30m         ▒▒▒▒▒▐▀▀▀█▄▒▒▒▒▒▒▒▒▒\e[0m"
+echo -e "\e[1;30m         ▒▒▒▒█▀─────█▒▒▒▒▒▒▒▒\e[0m"
+echo -e "\e[1;30m         ▒▒▒█────▄─▄─▌▒▒▒▒▒▒▒\e[0m"
+echo -e "\e[1;30m         ▒▒▒▌───██─█▌▌▒▒▒▒▒▒▒\e[0m"
+echo -e "\e[1;30m         ▒▒▒▌───█▌──▌▌▒▒▒▒▒▒▒\e[0m"
+echo -e "\e[1;30m         ▒▒▒▌────────▌▒▒▒▒▒▒▒\e[0m"
+echo -e "\e[1;30m         ▒▒█─────────▐▒▒▒▒▒▒▒\e[0m"
+echo -e "\e[1;30m         ▒▐▌─▐───────▐▄▄▒▒▒▒▒\e[0m"
+echo -e "\e[1;30m         ▒▐▌─▐────────▄▀▀█▒▒▒\e[0m"
+echo -e "\e[1;30m         ▒█──▀▄──▄█▄▀▀▒▒▒▌▀▄▒\e[0m"
+echo -e "\e[1;30m         ▐▌────██▀█░█▄▒▄▄█▀▀▌\e[0m"
+echo -e "\e[1;30m         ▐▌──▌▐───▐░░▐▀░░░░░▌\e[0m"
+echo -e "\e[1;30m         ▐▌──▌────▐░░▐░░░░░░▌\e[0m"
+echo -e "\e[1;30m         ▐───▌────▐░░▐░░░░░░▌\e[0m"
+echo -e "\e[1;30m         ▐───█────▐░░▐░░░░░░▌\e[0m"
+echo -e "\e[1;30m         ▐───█────▐░░▐░░░░░░▌\e[0m"
+echo -e "\e[1;30m         ▐───█─────▀█▐▄▄▄█▀▀▒\e[0m"
+echo -e "\e[1;30m         ▀▄▄─▐───────▄█▒▒▒▒▒▒\e[0m"
+echo -e "\e[1;30m         ▒▒▒▀█───█▄▀▀▀▒▒▒▒▒▒▒\e[0m"
+echo -e "\e[1;30m         ▒▒▒▒▒▀▀▀▒▒▒▒▒▒▒▒▒▒▒▒\e[0m" "\e[33m🔥BETA_V1\e[0m"
+echo -e ""
+echo -e "\e[1;34m            by \e[1;37m: \e[31m🥳IvanM-YT-TLM-SDP🥳"                     
+echo -e "\e[31m ===================================\e[0m"
+echo -e "\e[36m        ┬┌┐┌┌─┐┌─┐┌─┐┌┐┌┬┌┬┐┌─┐"
+echo -e "\e[36m        │││││  │ ││ ┬││││ │ │ │"
+echo -e "\e[36m        ┴┘└┘└─┘└─┘└─┘┘└┘┴ ┴ └─┘"
+echo -e "\e[31m ===================================\e[0m"
+echo -e ""
+echo -e "\e[36m[\e[0m""\e[1;31m1\e[0m""\e[36m]\e[0m" "\e[32mDesea Instalar Todos Los Paquetes De Termux"
+echo -e "\e[36m[\e[0m""\e[1;31m2\e[0m""\e[36m]\e[0m" "\e[32mDesea Instalar Banners Para Termux"
+echo -e "\e[36m[\e[0m""\e[1;31m3\e[0m""\e[36m]\e[0m" "\e[32mDesea Instalar Efecto Matrix "
+echo -e "\e[36m[\e[0m""\e[1;31m4\e[0m""\e[36m]\e[0m" "\e[32mSalir " 
+}
+
+# CÓDIGO
+#
+while :
+do
+banertor
+echo -e -n ">>>$ " 
+read -r Opcion_Incog
+[ "$Opcion_Incog" == "1" ]||[ "$Opcion_Incog" == "2" ]||[ "$Opcion_Incog" == "3" ]||[ "$Opcion_Incog" == "4" ] && break
+
+echo -e "\e[31m
+IvanM No Reconoce Esa Opcion🤔"
+
+sleep 1.5
+done
+
+case $Opcion_Incog in
+        1)
+                    echo -e "\e[1;34m👉Se Esta Iniciando La Descarga De Los Paquetes....Puede Demorar"
+                    pkg update -y &> /dev/null
+                        echo -e "\e[1;34m👉Empezando... ... ... ... ... ... ... ... ..."
+                        pkg install ruby -y &> /dev/null
+            echo -e "\e[1;34m🛡️Instalando ..... ..... .....Espere %%  5%"
+                        git pull &> /dev/null
+                        echo -e "\e[1;34m🛡️Instalando ..... ..... .....Espere %%  10%"
+                        pkg update -y &> /dev/null
+                        echo -e "\e[1;34m🛡️Instalando ..... ..... .....Espere %%  15%"
+                        pkg update -y &> /dev/null
+                echo -e "\e[1;34m🛡️Instalando ..... ..... .....Espere %%  20%"
+            pkg upgrade -y &> /dev/null
+                        echo -e "\e[1;34m🛡️Instalando ..... ..... .....Espere %%  23%"
+            pkg install python -y &> /dev/null
+                        echo -e "\e[1;34m🛡️Instalando ..... ..... .....Espere %%  25%"
+            pkg install python2 -y &> /dev/null
+                        echo -e "\e[1;34m🛡️Instalando ..... ..... .....Espere %%  27%"
+            pkg install python3 -y &> /dev/null
+                        echo -e "\e[1;34m🛡️Instalando ..... ..... .....Espere %%  28%"
+            pkg install git -y &> /dev/null
+                        echo -e "\e[1;34m🛡️Instalando ..... ..... .....Espere %%  29%"
+            pkg install nano -y &> /dev/null
+                        echo -e "\e[1;34m🛡️Instalando ..... ..... .....Espere %%  30%"
+            pip install openssl -y &> /dev/null
+                        echo -e "\e[1;34m🛡️Instalando ..... ..... ..... Espere %%  32%"
+            pkg install openssl -y &> /dev/null
+                        echo -e "\e[1;34m🛡️Instalando ..... ..... ..... Espere %%  35%"
+                        pkg install openssh -y &> /dev/null
+                        echo -e "\e[1;34m🛡️Instalando ..... ..... ..... Espere %%  40%"
+                        termux-setup-storage -y &> /dev/null
+                        echo -e "\e[1;34m🛡️Instalando ..... ..... ..... Espere %%  45%"
+                        pip install requests -y &> /dev/null
+                        echo -e "\e[1;34m🛡️Instalando ..... ..... ..... Espere %%  50%"
+            pkg install tor -y &> /dev/null
+                        echo -e "\e[1;34m🛡️Instalando ..... ..... ..... Espere %%  55%"
+            pkg install curl -y &> /dev/null
+                        echo -e "\e[1;34m🛡️Instalando ..... ..... ..... Espere %%  58%"
+            pip install curl -y &> /dev/null
+                        echo -e "\e[1;34m🛡️Instalando ..... ..... ..... Espere %%  60%"
+            pip install tor -y &> /dev/null
+                        echo -e "\e[1;34m🛡️Instalando ..... ..... ..... Espere %%  65%"
+            pip2 install mechanize -y &> /dev/null
+                        echo -e "\e[1;34m🛡️Instalando ..... ..... ..... Espere %%  66%"
+            pkg install git python php curl openssh grep -y &> /dev/null
+                        echo -e "\e[1;34m🛡️Instalando ..... ..... ..... Espere %%  67%"
+            pip install stem -y &> /dev/null
+                        echo -e "\e[1;34m🛡️Instalando ..... ..... ..... Espere %%  71%"
+                        pkg -y install git -y &> /dev/null
+                        echo -e "\e[1;34m🛡️Instalando ..... ..... ..... Espere %%  74%"
+                        pkg -y install python -y &> /dev/null
+                        echo -e "\e[1;34m🛡️Instalando ..... ..... ..... Espere %%  78%"
+            pip install mechanize -y &> /dev/null
+                        echo -e "\e[1;34m🛡️Instalando ..... ..... ..... Espere %%  80%"
+            pip2 install mechanize -y &> /dev/null
+                        echo -e "\e[1;34m🛡️Instalando ..... ..... ..... Espere %%  82%" 
+            pip install php -y &> /dev/null
+                        echo -e "\e[1;34m🛡️Instalando ..... ..... ..... Espere %%  85%"
+            pip install tor -y &> /dev/null
+                        echo -e "\e[1;34m🛡️Instalando ..... ..... ..... Espere %%  87%"
+            pip3 install requests -y &> /dev/null
+                        echo -e "\e[1;34m🛡️Instalando ..... ..... ..... Espere %%  93%"
+            pip3 install clint -y &> /dev/null
+                        echo -e "\e[1;34m🛡️Instalando ..... ..... ..... Espere %%  95%"
+            pip3 install coloramas -y &> /dev/null
+                        echo -e "\e[1;34m🛡️Instalando ..... ..... .....Espere %%  98%"
+                        pkg install w3m -y &> /dev/null
+                        echo -e "\e[1;34m🛡️Instalando ..... ..... .....Espere %%  99%"
+                        pkg install wget -y &> /dev/null
+                        echo -e "\e[1;34m🛡️Instalando ..... ..... .....Espere %%  100%"
+                        pkg install w3m -y &> /dev/null
+                        echo -e "\e[36m🛡️Finalizando La Instalación De Paquetes🛡️"
+
+                      ;;
+            2)
+            cd
+            git clone https://github.com/Soy_IvanM-Paqutes-termux/Paquetes-Termux-IvanM_YT
+            cd Paquetes-Termux-IvanM_YT
+                        chmod +x *
+                        bash Paquetes-Termux-IvanM_YT
+                        ;;
+
+                        3)
+                        cd
+                        echo -e "\e[32m🤯Instalando Cmatrix🤯"
+                        pkg install cmatrix
+                        cmatrix
+                        ;;
+
+                        4)
+                        echo -e "\e[1;35m❤️IvanM-YT❤️"
+
+                        echo -e "\e[1;35m🫂Se Despide🫂"
+                        exit
+                        ;;
+
+esac
+
